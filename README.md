@@ -18,8 +18,8 @@ Before you start, ensure you have the following installed:
 First, clone the repository to your local machine using the following command:
 
 ```bash
-git clone https://github.com/brandonleemockapp/mock_app.git
-cd mock_app/catalog_app
+git clone https://github.com/brandonleemockapp/remarcable.git
+cd remarcable/catalog_app
 ```
 
 ### 2. Install Dependencies
