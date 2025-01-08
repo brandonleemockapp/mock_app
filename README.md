@@ -22,15 +22,7 @@ git clone https://github.com/brandonleemockapp/remarcable.git
 cd remarcable/catalog_app
 ```
 
-### 2. Install Dependencies
-
-Make sure to install the required dependencies listed in `requirements.txt`. You can do this using `pip`:
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Make Migrations
+### 2. Make Migrations
 
 Generate the necessary migration files based on the models in your Django app:
 
@@ -38,7 +30,7 @@ Generate the necessary migration files based on the models in your Django app:
 python manage.py makemigrations
 ```
 
-### 4. Apply Migrations
+### 3. Apply Migrations
 
 Apply the migrations to the database:
 
@@ -46,7 +38,7 @@ Apply the migrations to the database:
 python manage.py migrate
 ```
 
-### 5. Populate the Database
+### 4. Populate the Database
 
 If you need to populate the database with sample data, you can run the following script:
 
@@ -56,7 +48,7 @@ python manage.py shell < scripts/populate_db.py
 
 This will populate the database with 20 sample products.
 
-### 6. Run the Development Server
+### 5. Run the Development Server
 
 To start the development server, run:
 
@@ -85,7 +77,7 @@ You can filter products by tags by selecting one or more checkboxes for tags (e.
 Check one or more tags, and the page will display products that match the selected tags.
 The web app will display products that match all selected tags.
 
-### Use example
+### 4. Use example
 Search for a description: "gamer"
 Filter by category: "Electronics"
 Filter by tags: Select "New" and "Sale"
@@ -95,7 +87,7 @@ Have the word "gamer" in their description
 Belong to the "Electronics" category
 Have both "New" and "Sale" tags.
 
-### 4. Reset Filters
+### 5. Reset Filters
 If you want to reset the filters, you can either:
 
 Clear the search bar and deselect all checkboxes.
